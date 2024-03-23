@@ -6,6 +6,7 @@ const jwt=require("jsonwebtoken");
 const multer=require("multer");
 const path=require("path");  // path which help to access backend directory 
 const cors=require("cors");  // accaess to the react project 
+require('dotenv').config()
 const { rmSync } = require("fs"); 
 
 // pass=Agarwal456
@@ -20,7 +21,8 @@ app.use(express.json());  // request that parse to json
 app.use(cors()); //  connect to express through 4000 port 
 
 // mongodb+srv://ishajindal2k02:<password>@cluster0.nd9esyj.mongodb.net/
-mongoose.connect("mongodb+srv://ishajindal2k02:Agarwal456@cluster0.nd9esyj.mongodb.net/Shopify");
+// mongodb+srv://ishajindal2k02:Agarwal456@cluster0.nd9esyj.mongodb.net/Shopify
+mongoose.connect(`${process.env.MONGO_CONNECTION}`);
 
 
 app.use(express.static(path.join(__dirname,"../frontened/build")));
