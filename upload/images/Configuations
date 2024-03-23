@@ -1,3 +1,8 @@
 UserName: purpleBeyond
 Mongoose Connect : mongodb+srv://purpleBeyond:7310512@cluster0.bl2rjzt.mongodb.net/
 mongodb+srv://purpleBeyond:<password>@cluster0.bl2rjzt.mongodb.net/
+
+package.json in backend
+// "start": "react-scripts start",
+    // "build": "react-scripts build",
+    // "eject": "react-scripts eject"
