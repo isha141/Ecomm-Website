@@ -3,7 +3,7 @@
    flex-direction: column;
    align-items: center;
    gap:20px; 
-   height:195vh; 
+   height:205vh; 
 }
 .collections {
    /* display: flex; */
@@ -24,8 +24,10 @@
    width:10%;
   height:10px;
   border-radius: 57px;
+  /* background-color: blue; */
   background-color: #171717; 
   /* gap: 30px; */
+  margin-bottom: 30px;
 }
 @media (max-width:1280px){
     .newCollection{

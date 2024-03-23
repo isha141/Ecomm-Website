@@ -12,7 +12,8 @@
    gap:30px;
    padding-left: 250px;
    line-height: 1.1rem; 
-   margin-top: -84px;
+   margin-top: -84px; 
+
 }
 .hero-left h2{  
    color: #909009;
@@ -59,8 +60,14 @@
    flex:1;
    align-items: center;
    justify-content: center; 
-   width:250px; 
-   /* background-color: #909009; */
+   /* width:190px;  */
+   /* height: 100px;  */
+   box-sizing: border-box;
+   /* margin-top: 290px; */
+}
+.hero-right img{
+   width:440px; 
+   /* height: 100px;   */
 }
 @media (max-width:1350px){
    .hero-left{

@@ -1,7 +1,7 @@
 .loginSignUp{
    display: flex;
    flex-direction: column;
-   height: 90vh; 
+   height: 120vh; 
    background-color: #fce3fe; 
    margin-bottom: 50px;
 }
