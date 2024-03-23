@@ -6,9 +6,11 @@
    width:80%;
    justify-content: center;
    margin: auto;
+   margin-top: 40px;
    padding: 0px 140px; 
    margin-bottom: 150px;
    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+   /* background-color: aqua; */
    gap:30px;
 }
 .newsletter h1{

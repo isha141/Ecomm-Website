@@ -25,7 +25,7 @@ app.use(cors()); //  connect to express through 4000 port
 mongoose.connect(`${process.env.MONGO_CONNECTION}`);
 
 
-app.use(express.static(path.join(__dirname,"../frontened/build")));
+// app.use(express.static(path.join(__dirname,"../frontened/build")));
 app.get("*",(req,res)=>{
     res.sendFile(path.resolve(__dirname,"../frontened/build/index.js"));
 })

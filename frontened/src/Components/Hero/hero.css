@@ -58,7 +58,9 @@
    display: flex;
    flex:1;
    align-items: center;
-   justify-content: center;
+   justify-content: center; 
+   width:250px; 
+   /* background-color: #909009; */
 }
 @media (max-width:1350px){
    .hero-left{
